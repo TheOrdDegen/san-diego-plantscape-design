@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Home, Building2, Plant, Recycle, Tool, Award, Heart, Leaf } from 'lucide-react';
+import { Home, Building2, Leaf, Recycle, Wrench, Award, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const ServicesPage = () => {
@@ -71,15 +71,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Custom potted arrangements</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Hanging plant installations</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Indoor plant styling</span>
                     </li>
                   </ul>
@@ -93,15 +93,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Drought-resistant garden design</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Patio and container gardens</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Ornamental landscaping</span>
                     </li>
                   </ul>
@@ -115,15 +115,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Weekly/bi-weekly maintenance visits</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Seasonal care and replanting</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Plant health consultations</span>
                     </li>
                   </ul>
@@ -230,15 +230,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Reception and common area designs</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Office divider plants</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Executive office greenery</span>
                     </li>
                   </ul>
@@ -252,15 +252,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Entrance and exterior landscaping</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Patio and outdoor seating areas</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Commercial property enhancement</span>
                     </li>
                   </ul>
@@ -274,15 +274,15 @@ const ServicesPage = () => {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Regular scheduled maintenance</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Plant health monitoring</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                      <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                       <span>Seasonal rotations and replacement</span>
                     </li>
                   </ul>
@@ -364,7 +364,7 @@ const ServicesPage = () => {
             
             <div className="bg-valderas-beige p-8 rounded-lg">
               <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Tool className="text-valderas-green-dark w-8 h-8" />
+                <Wrench className="text-valderas-green-dark w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-valderas-green-dark">Maintenance Options</h3>
               <p className="text-gray-700 mb-4">

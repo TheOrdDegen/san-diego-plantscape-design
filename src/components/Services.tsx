@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, Building2, Recycle, Plant, Leaf } from 'lucide-react';
+import { Home, Building2, Recycle, Leaf, FlowerIcon } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -34,15 +34,15 @@ const Services = () => {
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Custom indoor plant arrangements</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Outdoor landscaping and garden design</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Residential plant care and maintenance</span>
                 </li>
               </ul>
@@ -65,15 +65,15 @@ const Services = () => {
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Office plant design and installation</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Commercial landscaping solutions</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Plant className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
+                  <Leaf className="text-valderas-green-mid w-5 h-5 mt-1 flex-shrink-0" />
                   <span>Regular maintenance plans for businesses</span>
                 </li>
               </ul>
@@ -108,7 +108,7 @@ const Services = () => {
             {/* Affordable Maintenance */}
             <div className="bg-white p-6 rounded-lg shadow text-center">
               <div className="bg-valderas-beige rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
-                <Plant className="text-valderas-green-dark w-7 h-7" />
+                <FlowerIcon className="text-valderas-green-dark w-7 h-7" />
               </div>
               <h3 className="font-bold text-xl mb-3 text-valderas-green-dark">Affordable Maintenance</h3>
               <p className="text-gray-700">Weekly and bi-weekly care plans to keep your plants thriving year-round.</p>
