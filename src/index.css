@@ -42,8 +42,14 @@
     @apply border-border;
   }
 
+  html {
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
+  }
+
   body {
     @apply bg-valderas-beige text-foreground font-poppins;
+    overscroll-behavior: none;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -57,18 +63,95 @@
   }
   
   .section-padding {
-    @apply py-12 md:py-20;
+    @apply py-10 md:py-16 lg:py-20;
   }
   
   .btn-primary {
-    @apply bg-valderas-green-dark hover:bg-valderas-green-mid text-white font-medium px-6 py-3 rounded-md transition-colors duration-300;
+    @apply bg-valderas-green-dark hover:bg-valderas-green-mid text-white font-medium px-4 py-2 md:px-6 md:py-3 rounded-md transition-colors duration-300 text-sm md:text-base;
   }
   
   .btn-secondary {
-    @apply bg-valderas-gold hover:bg-amber-400 text-valderas-green-dark font-medium px-6 py-3 rounded-md transition-colors duration-300;
+    @apply bg-valderas-gold hover:bg-amber-400 text-valderas-green-dark font-medium px-4 py-2 md:px-6 md:py-3 rounded-md transition-colors duration-300 text-sm md:text-base;
   }
   
   .btn-outline {
-    @apply border-2 border-valderas-green-dark text-valderas-green-dark hover:bg-valderas-green-dark hover:text-white font-medium px-6 py-3 rounded-md transition-colors duration-300;
+    @apply border-2 border-valderas-green-dark text-valderas-green-dark hover:bg-valderas-green-dark hover:text-white font-medium px-4 py-2 md:px-6 md:py-3 rounded-md transition-colors duration-300 text-sm md:text-base;
+  }
+
+  /* Responsive text utilities */
+  .text-responsive-xs {
+    @apply text-xs sm:text-sm md:text-base;
+  }
+  
+  .text-responsive-sm {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+  
+  .text-responsive-base {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+  
+  .text-responsive-lg {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+  
+  .text-responsive-2xl {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  /* Responsive spacing utilities */
+  .p-responsive {
+    @apply p-4 md:p-6 lg:p-8;
+  }
+  
+  .px-responsive {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+  
+  .py-responsive {
+    @apply py-4 md:py-6 lg:py-8;
+  }
+  
+  .m-responsive {
+    @apply m-4 md:m-6 lg:m-8;
+  }
+  
+  .mx-responsive {
+    @apply mx-4 md:mx-6 lg:mx-8;
+  }
+  
+  .my-responsive {
+    @apply my-4 md:my-6 lg:my-8;
+  }
+
+  /* Mobile-friendly gap classes */
+  .gap-responsive-sm {
+    @apply gap-2 md:gap-4;
+  }
+  
+  .gap-responsive-md {
+    @apply gap-4 md:gap-6;
+  }
+  
+  .gap-responsive-lg {
+    @apply gap-6 md:gap-8;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
+  .container-custom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Ensure touch targets are at least 44px x 44px */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
   }
 }
